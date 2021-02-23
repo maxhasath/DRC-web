@@ -19,6 +19,7 @@ Scenario('Buy bundle Data', async (I, buyDataPage, mainPage) => {
   await mainPage.clickTransaction();
   await buyDataPage.clickSmsForfaits();
   await buyDataPage.clickSelectPlanBtn();
+  //new test comment
   //await buyDataPage.clickconfirmBtn();
   // await buyDataPage.grabSuccessMessage();
 
